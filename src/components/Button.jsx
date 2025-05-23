@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 const ButtonPrimary = ({
-    href,target = '_self', label,icon,classes
+    href,target = '_self', label,icon,classes,download
 }) => {
 if(href){
 
@@ -11,6 +11,8 @@ if(href){
     
     <a href={href}
     target={target}
+   
+    download={download}
     className={"btn btn-primary" + classes  }>
         {label}
         {icon ?

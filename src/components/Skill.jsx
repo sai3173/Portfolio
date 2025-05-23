@@ -2,51 +2,55 @@ import React from 'react'
 import SkillCard from './SkillCard';
 
 const skillItem = [
-  {
-    imgSrc: '/images/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
+   {
+    imgSrc: 'images/aws.svg',
+    label: 'AWS Cloud',
+    desc: ' Public Cloud'
   },
   {
-    imgSrc: '/images/css3.svg',
-    label: 'CSS',
-    desc: 'User Interface'
+    imgSrc: 'images/redhat.svg',
+    label: 'Red Hat Openshift ',
+    desc: ' Container Platform'
   },
   {
-    imgSrc: '/images/javascript.svg',
-    label: 'JavaScript',
-    desc: 'Interaction'
+    imgSrc: 'images/kubernetes.svg',
+    label: 'Kubernetes',
+    desc: 'Orchestrator'
   },
   {
-    imgSrc: '/images/nodejs.svg',
-    label: 'NodeJS',
-    desc: 'Web Server'
+    imgSrc: 'images/docker.svg',
+    label: 'Docker',
+    desc: 'Containerization'
+  },
+   {
+    imgSrc: 'images/linux.svg',
+    label: 'Linux',
+    desc: 'Operating System'
   },
   {
-    imgSrc: '/images/expressjs.svg',
-    label: 'ExpressJS',
-    desc: 'Node Framework'
+    imgSrc: 'images/github.svg',
+    label: 'Github',
+    desc: 'Repository'
   },
-  {
-    imgSrc: '/images/mongodb.svg',
-    label: 'MongoDB',
+   {
+    imgSrc: 'images/mysql.svg',
+    label: 'MySql',
     desc: 'Database'
   },
   {
-    imgSrc: '/images/react.svg',
-    label: 'React',
-    desc: 'Framework'
+    imgSrc: 'images/dynatrace.svg',
+    label: 'Dynatrace',
+    desc: 'Observability'
   },
-  {
-    imgSrc: '/images/tailwindcss.svg',
-    label: 'TailwindCSS',
-    desc: 'User Interface'
-  },
+  
+ 
+ 
+  
 ];
 
 const Skill = () => {
   return (
-    <section className='section'>
+    <section id='skill' className='section'>
       <div className="container">
         <h2 className='headline-2 reveal-up'>
           Essential Tools I use

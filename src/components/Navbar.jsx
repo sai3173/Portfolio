@@ -40,16 +40,17 @@ activeBox.current.style.height = event.target.offsetHeight + 'px';
       link: '#about',
       className: 'nav-link'
     },
+     {
+      label: 'Skills',
+      link: '#skill',
+      className: 'nav-link'
+    },
     {
-      label: 'Work',
+      label: 'Projects',
       link: '#work',
       className: 'nav-link'
     },
-    {
-      label: 'Reviews',
-      link: '#reviews',
-      className: 'nav-link'
-    },
+   
     {
       label: 'Contact',
       link: '#contact',

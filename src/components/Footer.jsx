@@ -13,10 +13,7 @@ const sitemap = [
     label: 'Work',
     href: '#work'
   },
-  {
-    label: 'Reviews',
-    href: '#reviews'
-  },
+  
   {
     label: 'Contact me',
     href: '#contact'
@@ -26,24 +23,15 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/Kummara-Naresh/Profile.git'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: 'https://www.linkedin.com/in/kummara-naresh-209422300/'
   },
-  {
-    label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
-  },
-  {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
-  }
+ 
+ 
+ 
 ];
 
 
@@ -98,9 +86,9 @@ const Footer = () => {
       
       <div className="flex items-center justify-between mb-8 pt-10 ">
         <a href='/' className='logo reveal-up'>
-            <img src="/images/logo.svg" alt="Logo" width={40} height={40} />
+            <img src="images/logo.svg" alt="Logo" width={40} height={40} />
         </a>
-        <p className='text-zinc-500 text-sm reveal-up'>&copy; 2024 <span className='text-zinc-200'></span> Sai Tarun</p>
+        <p className='text-zinc-500 text-sm reveal-up'>&copy; 2022 <span className='text-zinc-200'></span> Kummara Naresh</p>
       </div>
     </div>
     </footer>
